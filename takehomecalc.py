@@ -6,7 +6,12 @@ import PIL.Image as Image
 
 
 st.title("Take home calculator")
-
+st.markdown('''
+Steps to use the app
+            
+1. Obtain your Gemini Pro key from [Google's Maker Suite](https://makersuite.google.com/app/apikey).
+2. Upload the image containing the salary breakup
+            ''')
 api_key = st.sidebar.text_input(
     label="add your gemini pro key",
     help="get your key here https://makersuite.google.com/app/apikey"
@@ -65,7 +70,8 @@ if api_key and (uploaded_file is not None) and st.sidebar.button("Submit"):
     "You are a expert CA ,who is well versed in Indian tax laws , \
     Analyze the image and extract yearly values not the monthly values \
     Show me the tax calulation for the below salary breakup in tablular format \
-    Also show me the net take home after all dedcutions \
+    Also show me the net take home per year and per month after all dedcutions \
+    
     Dont make up caluclations, if you are unable to caluate return unable to calculate tax based on the given image",
     image_parts[0],
     ]
