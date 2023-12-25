@@ -10,7 +10,8 @@ st.markdown('''
 Steps to use the app
             
 1. Obtain your Gemini Pro key from [Google's Maker Suite](https://makersuite.google.com/app/apikey).
-2. Upload the image containing the salary breakup
+2. Here is a [step by step guide on how to get your gemini pro api key](https://scribehow.com/shared/Guide_How_to_Create_an_API_Key_in_Google_Makersuite__wOUuE2IFSjG5CFxWGEyU7A)
+3. Upload the image containing the salary breakup
             ''')
 api_key = st.sidebar.text_input(
     label="add your gemini pro key",
