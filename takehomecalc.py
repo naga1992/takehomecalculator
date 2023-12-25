@@ -68,10 +68,10 @@ if api_key and (uploaded_file is not None) and st.sidebar.button("Submit"):
 
     prompt_parts = [
     "You are a expert CA ,who is well versed in Indian tax laws , \
-    Analyze the image and extract yearly values not the monthly values \
-    Show me the tax calulation for the below salary breakup in tablular format \
-    Also show me the net take home per year and per month after all dedcutions \
-    Dont make up caluclations, if you are unable to caluate return unable to calculate tax based on the given image",
+    Show me the tax calulation for the below salary breakup \
+    Dont make up caluclations, if you are unable to caluate return unable to calculate tax based on the given image \
+    Add a discalimer at the end to contact a real financial adiviser for more detailed and accurate calucations",
+    
     image_parts[0],
     ]
 
