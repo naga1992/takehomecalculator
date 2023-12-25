@@ -11,7 +11,7 @@ api_key = st.sidebar.text_input(
     label="add your gemini pro key",
     help="get your key here https://makersuite.google.com/app/apikey"
 )
-uploaded_file = st.sidebar.file_uploader("Choose a file")
+uploaded_file = st.sidebar.file_uploader("upload a image of your salary breakup")
 
 if api_key and (uploaded_file is not None) and st.sidebar.button("Submit"):
 
