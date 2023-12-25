@@ -2,6 +2,11 @@
 ### Overview:
 This repository contains a simple Streamlit application that utilizes Google's Generative AI to generate content based on a user-provided image. Specifically, the application takes an image as input and generates a text response related to tax calculations based on the visual content. 
 
+
+### Try it out in Streamlit 
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://takehomecalculator-mm9y9i6q8n7ed8s4plhrzd.streamlit.app/)
+
 ### Prerequisites:
 1. Python 3.x
 2. Streamlit
