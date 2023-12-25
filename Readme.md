@@ -22,6 +22,7 @@ This repository contains a simple Streamlit application that utilizes Google's G
    
 2. **API Key**:
    - Obtain your Gemini Pro key from [Google's Maker Suite](https://makersuite.google.com/app/apikey).
+   - Here is a [step by step guide on how to get your gemini pro api key](https://scribehow.com/shared/Guide_How_to_Create_an_API_Key_in_Google_Makersuite__wOUuE2IFSjG5CFxWGEyU7A)
    - Input this key into the application via the Streamlit sidebar when prompted.
 
 ### Usage:
